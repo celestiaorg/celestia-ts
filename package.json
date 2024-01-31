@@ -1,0 +1,31 @@
+{
+  "name": "celestia-ts",
+  "version": "0.1.0",
+  "description": "Typescript client library for communicating with celestia-node.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celestiaorg/celestia-ts.git"
+  },
+  "keywords": [
+    "celestia"
+  ],
+  "author": "Ryan Ford <ryan@celestia.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/celestiaorg/celestia-ts/issues"
+  },
+  "homepage": "https://github.com/celestiaorg/celestia-ts#readme",
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "reflect-metadata": "^0.2.1",
+    "rpc-websockets": "^7.9.0"
+  }
+}

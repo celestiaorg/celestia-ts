@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+dist/
+
+# Environment files
+.env
+
+# IDE or editor files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
